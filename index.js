@@ -10,15 +10,16 @@ cliente1.cpf = 11122233309;
 cliente2.nome = "Alice";
 cliente2.cpf = 88822233309;
 
-const contaCorrenteRicardo = new ContaCorrente();
-contaCorrenteRicardo.agencia = 1001;
-contaCorrenteRicardo.cliente = cliente1;
-contaCorrenteRicardo.depositar(500);
+const conta1 = new ContaCorrente();
+conta1.agencia = 1001;
+conta1.cliente = cliente1;
+conta1.depositar(500);
 
 const conta2 = new ContaCorrente();
 conta2.cliente = cliente2;
 conta2.agencia = 102;
 
-contaCorrenteRicardo.transferir(200, conta2);
-console.log(conta2);
-console.log(contaCorrenteRicardo);
+conta1.transferir(200, conta2);
+
+console.log(`Conta: ${cliente1.nome} e Saldo: ${conta1.saldo}`);
+console.log(`Conta: ${cliente2.nome} e Saldo: ${conta2.saldo}`);
