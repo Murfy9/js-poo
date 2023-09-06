@@ -6,6 +6,7 @@ export class ContaCorrente {
   // #Atributos Privados
 
   #cliente;
+  #saldo = 0;
 
   set cliente(novoValor) {
     if (novoValor instanceof Cliente) {
@@ -17,10 +18,13 @@ export class ContaCorrente {
     return this.#cliente;
   }
 
-  #saldo = 0;
-
   get saldo() {
     return this.#saldo;
+  }
+
+  constructor(cliente, agencia) {
+    this.cliente = cliente;
+    this.agencia = agencia;
   }
 
   sacar(valor) {
