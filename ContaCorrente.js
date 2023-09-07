@@ -1,6 +1,7 @@
 import { Cliente } from "./Cliente.js";
 
 export class ContaCorrente {
+  static numeroDeContas = 0;
   agencia;
 
   // #Atributos Privados
@@ -25,6 +26,7 @@ export class ContaCorrente {
   constructor(cliente, agencia) {
     this.cliente = cliente;
     this.agencia = agencia;
+    ContaCorrente.numeroDeContas += 1;
   }
 
   sacar(valor) {

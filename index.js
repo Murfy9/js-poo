@@ -13,3 +13,4 @@ conta1.transferir(200, conta2);
 
 console.log(`Conta: ${cliente1.nome} e Saldo: ${conta1.saldo}`);
 console.log(`Conta: ${cliente2.nome} e Saldo: ${conta2.saldo}`);
+console.log(ContaCorrente.numeroDeContas);
