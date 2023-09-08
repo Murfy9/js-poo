@@ -1,5 +1,5 @@
 <div align="center">
-<h1>📈 Programação Orientada a Objetos<br/>
+<h1>💻 Programação Orientada a Objetos<br/>
 Curso na Alura - JavaScript: programando a Orientação a Objetos</h1>
 
 <h2>Revendo conceitos de programação orientada a objetos.</h2>
