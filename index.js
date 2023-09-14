@@ -16,15 +16,16 @@ const contaSalario = new ContaSalario(cliente1);
 contaSalario.depositar(100);
 contaSalario.sacar(10);
 
-//console.log(contaCorrente);
-//console.log(contaPoupanca);
-//console.log(contaSalario);
+console.log(contaCorrente);
+console.log(contaPoupanca);
+console.log(contaSalario);
 
 // Funcionarios
 
 const diretor = new Diretor("Rodrigo", 10000, 12345678900);
 diretor.cadastrarSenha(123456789);
 const gerente = new Gerente("Ana", 5000, 1237895601);
+gerente.cadastrarSenha(1234);
 
-const estaLogado = SistemaDeAutenticacao.login(diretor, 123456789);
+const estaLogado = SistemaDeAutenticacao.login(cliente1, 123456789);
 console.log(estaLogado);
