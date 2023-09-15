@@ -1,6 +1,6 @@
 <div align="center">
 <h1>💻 Programação Orientada a Objetos<br/>
-Curso na Alura - JavaScript: programando a Orientação a Objetos</h1>
+Cursos na Alura - JavaScript: programando a Orientação a Objetos e JavaScript: interfaces e Herança em Orientação a Objetos</h1>
 
 <h2>Revendo conceitos de programação orientada a objetos.</h2>
 </div>
@@ -11,4 +11,4 @@ Curso na Alura - JavaScript: programando a Orientação a Objetos</h1>
 
 ## 📚 Aprendizado
 
-- Aprofundando nos conceitos de Classes, Construtores, This, Get e Set, Encapsulamento, Atributos estáticos e Return e early return.
+- Aprofundando nos conceitos de Classes, Construtores, This, Get e Set, Encapsulamento, Atributos estáticos e Return e early return, herança, Palavra-chave Super, Polimorfismo, operador in, operador instanceof, interfaces padronizadas e Ducky Type.
